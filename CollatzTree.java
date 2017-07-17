@@ -32,23 +32,7 @@ public class CollatzTree
             NewFile.close();
         }
     }
-    //Calculations
-    public static int[] Successor(int n)
-    {
-        assert (n > 4);
-        if (n % 2 == 0 )
-        {
-            int[] a = {2 * n, (n - 1) / 3};
-            return a;
-        }
-        else
-        {
-            int[] a = {2 * n};
-            return a;
-        }
-        
-    }
-    
+  
 }
 
 
